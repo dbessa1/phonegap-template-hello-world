@@ -45,5 +45,11 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+        
+  if(typeof device != "undefined")// testa se a variavel já foi inicializada
+  {alert("hello world\n plugins OK")}
+  else
+  {alert("hello world\n plugins NÃO carregados")}
+        
     }
 };
